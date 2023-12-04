@@ -1,6 +1,5 @@
 import React, { Fragment, useState } from "react";
 import { NavLink, useMatch } from "react-router-dom";
-import LineIcon from "react-lineicons";
 import "../styles/Navbar.css";
 
 export default function Navbar() {
@@ -24,7 +23,7 @@ export default function Navbar() {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <LineIcon name="menu" style={{ color: "black" }} />
+            <span className="navbar-toggler-icon"></span>
           </button>
           <div
             className={`${
