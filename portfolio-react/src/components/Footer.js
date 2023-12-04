@@ -4,9 +4,9 @@ import "../styles/Footer.css";
 
 export default function Footer() {
   return (
-    <div className="Footer my-5">
-      <footer>
-        <div className="container p-5">
+    <div className="Footer mt-5">
+      <footer className="pt-3">
+        <div className="container d-flex flex-column align-items-center p-5">
           <div className="row pb-2">
             <div className="col-12 text-center">
               <a
