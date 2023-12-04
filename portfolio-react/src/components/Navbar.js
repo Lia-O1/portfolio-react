@@ -46,7 +46,7 @@ export default function Navbar() {
                   to="/about"
                   className={`nav-link ${useMatch("/about") ? "active" : ""}`}
                 >
-                  About me
+                  About
                 </NavLink>
               </li>
               <li className="nav-item px-3 ">
@@ -54,7 +54,7 @@ export default function Navbar() {
                   to="/contact"
                   className={`nav-link ${useMatch("/contact") ? "active" : ""}`}
                 >
-                  Contact me
+                  Contact
                 </NavLink>
               </li>
             </ul>
