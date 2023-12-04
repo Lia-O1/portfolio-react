@@ -10,7 +10,7 @@ export default function About() {
       <Navbar />
       <div className="text-center about-greeting">
         <h1>About me</h1>
-        <h3>
+        <h3 className="px-2">
           Passionate <br className="d-md-inline d-md-none" />
           Front-End Developer <br />
           with a unique blend of technical expertise and creative flair
@@ -20,8 +20,8 @@ export default function About() {
         <div className="rounded-2 mx-auto px-1 py-3 b-shadow wrapper">
           <div className="container about-me-inf">
             <hr className="py-2" />
-            <div className="row d-flex align-items-center">
-              <div className="col-sm-4 d-none d-md-block">
+            <div className="row d-flex align-items-center justify-content-center">
+              <div className="col-sm-4 d-none d-lg-block">
                 <div className="d-flex justify-content-start">
                   <img
                     src={myPhoto}
@@ -30,7 +30,7 @@ export default function About() {
                   />
                 </div>
               </div>
-              <div className="col-sm-8">
+              <div className="col-md-8">
                 <p>
                   Hello there! I’m Olha, a dedicated Front-End Developer with a
                   strong foundation in HTML, CSS, JavaScript, and React, and a

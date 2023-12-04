@@ -13,12 +13,12 @@ export default function Contact() {
         <div className="row pb-4">
           <div className="col-md-7">
             <div className="row">
-              <div className="col-md-12 d-flex justify-content-start pb-2 contact-me-header">
+              <div className="col-md-12 d-flex pb-2 contact-me-header">
                 <span>Work inquiry</span>
               </div>
             </div>
             <div className="row">
-              <div className="col-md-12 d-flex justify-content-start contact-me-sub">
+              <div className="col-md-12 d-flex contact-me-sub">
                 <span>
                   Let's work together and I will help you by all my best
                 </span>
@@ -28,7 +28,7 @@ export default function Contact() {
           <div className="col-md-5 d-flex contact-me-btn align-items-center">
             <button
               href="mailto:olhastepko2020@gmail.com"
-              className="primary-btn rounded-2 me-3"
+              className="primary-btn rounded-2"
             >
               Let's talk here
             </button>

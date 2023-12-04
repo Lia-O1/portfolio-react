@@ -59,7 +59,7 @@ h3 {
 
 .Home .between-parts {
   max-width: fit-content;
-  font-size: 32px;
+  font-size: 24px;
   margin: 0 auto;
 }
 
@@ -69,21 +69,36 @@ h3 {
 
 .Home .project-inf {
   color: #000;
-  text-decoration: none;
-  font-size: 24px;
+  font-size: 18px;
   line-height: 1;
 }
 
-.project:hover .image-transition {
+.Home .project:hover .image-transition {
   box-shadow: 0px 10px 15px rgb(0, 0, 0, 0.8);
   transition: all 0.5s ease-in-out;
   border-radius: 5px;
 }
 
-.project:not(hover) .image-transition {
+.Home .project:not(hover) .image-transition {
   transition: all 0.5s ease-in-out;
 }
 
-.b-shadow {
+.Home .b-shadow {
   box-shadow: 0px 5px 7px rgb(0, 0, 0, 0.3);
+}
+
+@media (max-width: 576px) {
+  .Home h1 {
+    font-size: 54px;
+  }
+  .Home h2,
+  h3 {
+    font-size: 24px;
+  }
+  .Home .link {
+    font-size: 18px;
+  }
+  .Home .between-parts {
+    font-size: 18px;
+  }
 }

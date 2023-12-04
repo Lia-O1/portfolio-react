@@ -40,7 +40,7 @@ export default function Home() {
       <div className="py-5">
         <div className="container mt-5">
           <div className="row">
-            <div className="col-md-6 mb-3 mt-3">
+            <div className="col-lg-6 mb-3 mt-3">
               <a
                 href="https://sparkling-sundae-e35163.netlify.app/"
                 target="_blank"
@@ -56,13 +56,13 @@ export default function Home() {
                       />
                     </div>
                   </div>
-                  <div className="d-flex justify-content-start p-3">
+                  <div className="d-flex justify-content-start p-3 project-inf">
                     Tsuki No Yoru
                   </div>
                 </div>
               </a>
             </div>
-            <div className="col-md-6 mb-3 mt-3">
+            <div className="col-lg-6 mb-3 mt-3">
               <a
                 href="https://jovial-bienenstitch-a81bd9.netlify.app/"
                 target="_blank"
@@ -78,7 +78,7 @@ export default function Home() {
                       />
                     </div>
                   </div>
-                  <div className="d-flex justify-content-start p-3">
+                  <div className="d-flex justify-content-start p-3 project-inf">
                     WeatherToday
                   </div>
                 </div>

@@ -37,7 +37,37 @@
 .Contact .contact-me-header {
   font-size: 48px;
   line-height: 1;
+  justify-content: start;
 }
 .Contact .contact-me-sub {
   font-size: 24px;
+  justify-content: start;
+}
+.Contact .contact-me-btn {
+  justify-content: end;
+}
+
+@media (max-width: 768px) {
+  .Contact .contact-me-header,
+  .Contact .contact-me-sub,
+  .Contact .primary-btn {
+    justify-content: center;
+    text-align: center;
+  }
+  .contact-me-btn {
+    margin-top: 2em;
+  }
+}
+@media (max-width: 576px) {
+  .Contact .contact-headline {
+    font-size: 54px;
+  }
+  .Contact .contact-me-sub,
+  .Contact .primary-btn,
+  .Contact .email {
+    font-size: 18px;
+  }
+  .Contact .contact-me-header {
+    font-size: 36px;
+  }
 }
