@@ -1,30 +1,30 @@
 .Footer {
   background-color: rgba(255, 255, 255, 0.8);
 }
-.Footer .social-icon {
+.social-icon {
   background-color: #b29d8c;
   color: rgb(0, 0, 0, 0.9);
   font-size: 48px;
   transition: all 100ms ease-in-out;
 }
 
-.Footer .social-icon:hover {
+.social-icon:hover {
   background-color: rgb(0, 0, 0, 0.9);
   color: #b29d8c;
 }
 
-.Footer .social-icon:not(hover) {
+.social-icon:not(hover) {
   transition: all 100ms ease-in-out;
 }
 
-.Footer .email {
+.email {
   color: #000;
   text-decoration: none;
   font-size: 24px;
   position: relative;
 }
 
-.Footer .animation-link:after {
+.animation-link:after {
   content: " ";
   position: absolute;
   bottom: 0;
@@ -34,6 +34,6 @@
   transition: 0.5s;
 }
 
-.Footer .animation-link:hover:after {
+.animation-link:hover:after {
   width: 100%;
 }

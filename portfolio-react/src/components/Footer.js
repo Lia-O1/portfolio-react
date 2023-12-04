@@ -7,7 +7,7 @@ export default function Footer() {
     <div className="Footer mt-5">
       <footer className="pt-3">
         <div className="container d-flex flex-column align-items-center p-5">
-          <div className="row pb-2">
+          <div className="row text-center pb-2">
             <div className="col-12 text-center">
               <a
                 href="mailto:olhastepko2020@gmail.com"
@@ -18,7 +18,7 @@ export default function Footer() {
               </a>
             </div>
           </div>
-          <div className="row d-flex">
+          <div className="row d-flex pt-2">
             <div className="col-12 d-flex justify-content-center">
               <a
                 href="https://github.com/Lia-O1"
