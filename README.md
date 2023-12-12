@@ -1,70 +1,25 @@
-# Getting Started with Create React App
+# Project Title - Portfolio (Archived)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is an archived version of a personal portfolio website built with React. It showcases my work as a web developer. The website includes pages for Home, About, and Contact. Users can navigate to different pages using the navigation bar at the top of the page.
 
-## Available Scripts
+## Code Showcase
+- **Routing**: The `App` component in `App.js` sets up the routes for the website using `react-router-dom`. It defines routes for the Home, About, and Contact pages.
+- **Navigation**: The `Navbar` component in `Navbar.js` handles the navigation for the website. It uses the `NavLink` from `react-router-dom` for navigation between different pages. The navigation bar is responsive and its state is managed using React's `useState` hook.
 
-In the project directory, you can run:
+## Note
+This repository is an archived version of a previous project (portfolio-react). The original project was developed in this repository, but due to some deployment issues on Netlify, a new repository was created. This repository is kept for historical reference and will not run even if you execute "npm run". That does not affect the quality or functionality of the code in the new repository.
 
-### `npm start`
+## Dependencies
+This project uses the following dependencies which will be installed automatically when you run `npm install`:
+- `react`: A JavaScript library for building user interfaces
+- `react-dom`: Serves as the entry point to the DOM and server renderers for React
+- `react-router-dom`: DOM bindings for React Router
+- `react-bootstrap`: Bootstrap components built with React
+- `react-icons`: An npm package that provides vector icons and social logos for your React applications
+- `bootstrap`: A popular HTML, CSS, and JS library for developing responsive, mobile-first projects on the web
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Repository Access
+This repository is kept for historical reference. If you want to see the history of the project, you can clone the repo: `git clone https://github.com/Lia-O1/portfolio-react.git`
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Current Version
+The current version of the project is hosted on Netlify and can be accessed [here](https://oswebdev.dev/). The source code for the current version is in the portfolio-react-2 repository.
